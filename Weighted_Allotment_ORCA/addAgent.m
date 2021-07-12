@@ -1,0 +1,51 @@
+function agent = addAgent(name, position, velocity, goal,vmax)
+% addAgent - Return a struct with agent details
+%
+% Syntax: agent = addAgent(name, position, velocity, goal)
+%
+    agent = struct( 'name', name, 'position', position, 'velocity', velocity );
+    agent.goal = goal;
+    agent.path = [];
+    agent.radius = 0.5;
+   % agent.radius = 3; %Scaled parameter
+     agent.sensorRange = 5;
+  %  agent.sensorRange = 75; %Scaled parameter
+    agent.vmax = 1;
+  %  agent.vmax = 20; %Scaled parameter
+    agent.rws = [];
+    agent.lws = [];
+    agent.zws = [];
+    agent.wmax = 1;
+    agent.phi=atan2((agent.goal(2)-agent.position(2)),(agent.goal(1)-agent.position(1)));
+    agent.color=[0 170 255] / 255;
+    agent.prevfov={ };
+    agent.sen_angle=45;
+    agent.time=0;
+    agent.count=0;
+    agent.obstacle_indx=[];
+    agent.coeff=[];
+    agent.initialpos = position;
+    agent.gflag = 0;
+    agent.goaldist = 100;
+    agent.Vh = [0,0];
+    agent.obs = [];
+    agent.prev = [];
+    agent.rweights = 0;
+    agent.lweights = 0;
+    agent.side = 0;
+    agent.rcentroid = [];
+    agent.lcentroid = [];
+    agent.ospace = [];
+    agent.minr = 2;
+    agent.minl = 2;
+    agent.pflag = 0;
+    agent.pobs = 0;
+    agent.bobs = [];
+    agent.region_list = [];
+    agent.volegs = [];
+    agent.rshapes = [];
+    agent.lshapes = [];
+    agent.outflag = 0;
+    agent.orflag = 0;
+    agent.fflag = 0;
+end

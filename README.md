@@ -5,7 +5,7 @@
 
 In the addagent tuple, the terms are defined as follows - ('agent_name','initial_configuration','initial_velocity','goal_configuration','agent_vmax')
 
-Configuration 1 
+Configuration 1 (Config 1 in the paper)
 
     agents=[
      addAgent('1', [-8 0], [0 0], [8 0],1),
@@ -46,7 +46,7 @@ Configuration 3
      addAgent('9', [1.5 1.5],     [0 0], [-6 -4],1),
     ];
 
-Configuration 4
+Configuration 4 (Config 2 in the paper)
 
     agents=[
      addAgent('1', [-1 -5], [0 0], [7 0],1),
@@ -162,6 +162,17 @@ Configuration 5
 Configuration 6
 
 ![config10_m3](https://user-images.githubusercontent.com/64011517/125909898-7255ef96-cdfa-4fdd-8fd8-c0c77bf37c92.gif)
+
+##Ablations
+
+Configuration 1
+
+![config1_sqp_nh_4s_start](https://user-images.githubusercontent.com/64011517/125911339-e1747ad7-9da7-4f5c-bc51-99a4a9dc6a0c.gif)
+
+Configuration 2 
+
+![config2_sqp_nh_2 5s_start](https://user-images.githubusercontent.com/64011517/125911322-39ce022d-0fc8-4005-9759-3ee1d85bda51.gif)
+
 
 
 

@@ -163,7 +163,7 @@ Configuration 6
 
 ![config10_m3](https://user-images.githubusercontent.com/64011517/125909898-7255ef96-cdfa-4fdd-8fd8-c0c77bf37c92.gif)
 
-##Ablations
+## Ablations
 
 Configuration 1
 

@@ -1,4 +1,4 @@
-![config2_m2-vc](https://user-images.githubusercontent.com/64011517/125910576-bd2f1a1d-b598-4ecc-bac7-0c83b74d9c27.gif)
+
 # VOs_Deadlock_Resolution
 
 ## Configurations

@@ -1,10 +1,12 @@
 # VOs_Deadlock_Resolution
 
 ## Configurations
+
+In the addagent tuple, the terms are defined as follows - ('agent_name','initial_configuration','initial_velocity','goal_configuration','agent_vmax')
+
 Configuration 1 
 
-agents=[
-
+    agents=[
      addAgent('1', [-8 0], [0 0], [8 0],1),
      addAgent('2', [-6 4],   [0 0], [6 -8],1),
      addAgent('3', [-6 -3],     [0 0], [8 3],1),
@@ -14,17 +16,102 @@ agents=[
      addAgent('7', [3 6],  [0 0 ], [3 -6],1), 
      addAgent('8', [5 -6],  [0 0 ], [5 7],1), 
      addAgent('9', [-3 6],  [0 0 ], [-3 -6],1), 
-];
+    ];
 
 Configuration 2
 
+    agents=[
+     addAgent('1', [-6 -2], [0 0], [4 2],1),
+     addAgent('2', [-5 3],   [0 0], [4 -3],1),
+     addAgent('3', [-4 -4],     [0 0], [2 4],1),
+     addAgent('4', [4 0],  [0 0], [-8 0],1),
+     addAgent('5', [4 -2],  [0 0], [-7 2],1), 
+     addAgent('6', [2 -4],  [0 0], [-1 5],1), 
+     addAgent('7', [5 2] , [0 0] , [-4 2],1),
+     addAgent('8', [-2 -4],  [0 0], [-5 5],1)
+    ];
+
 Configuration 3
+
+    agents=[
+     addAgent('1', [-6 -2], [0 0], [4 2],1),
+     addAgent('2', [-4 1],   [0 0], [3 -3],1),
+     addAgent('3', [-4 -4],     [0 0], [2 4],1),
+     addAgent('4', [2 0],  [0 0], [-8 0],1),
+     addAgent('5', [2 -2],  [0 0], [-6 0],1), 
+     addAgent('6', [0 -4],  [0 0], [-1 5],1), 
+     addAgent('7', [-2 -4],  [0 0], [-4 5],1),
+     addAgent('8', [2 -3.5],  [0 0], [-2 2.5],1),
+     addAgent('9', [1.5 1.5],     [0 0], [-6 -4],1),
+    ];
 
 Configuration 4
 
+    agents=[
+     addAgent('1', [-1 -5], [0 0], [7 0],1),
+     addAgent('2', [10 3],   [0 0], [-5 -3],1),
+     addAgent('3', [11 -1],  [0 0], [-2 -3],1),
+     addAgent('4', [3 4],  [0 0], [8 -8],1),
+     addAgent('5', [3 -6],  [0 0], [3 6],1), 
+     addAgent('6', [4 -5],  [0 0], [1 4],1), 
+     addAgent('7', [9 0],  [0 0], [-4 2],1),
+     addAgent('8', [-2 -1],  [0 0], [9 -4],1),  
+    ];
+
 Configuration 5
 
+    agents=[
+     addAgent('1', [-6 0], [0 0], [8 0],1),
+     addAgent('2', [-3 3],   [0 0], [5 -6],1),
+     addAgent('3', [-4 -3],     [0 0], [8 3],1),
+     addAgent('4', [1 -6],  [0 0], [1 8],1),
+     addAgent('5', [-3 -6],  [0 0], [7 5],1), 
+     addAgent('6', [4 -7],  [0 0], [-3 5],1), 
+     addAgent('7', [4 6],  [0 0], [1 -6],1), 
+     addAgent('8', [6 -5],  [0 0], [-1 6],1), 
+     addAgent('9', [-1 6],  [0 0], [-1 -6],1), 
+    ];
+
 Configuration 6
+
+    agents=[
+     addAgent('1', [0 -4], [0 0], [0 8],1),
+     addAgent('2', [2 -3],   [0 0], [-7 7],1),
+     addAgent('3', [-3 -4],     [0 0], [3 8],1),
+     addAgent('4', [-6 1],  [0 0], [8 1],1),
+     addAgent('5', [-6 -3],  [0 0], [5 7],1), 
+     addAgent('6', [-7 4],  [0 0], [4 -1],1), 
+     addAgent('7', [4 3],  [0 0], [-6 1],1), 
+     addAgent('8', [-5 6],  [0 0], [6 -1],1), 
+     addAgent('9', [6 1],  [0 0], [-6 -2],1), 
+   ];
+   
+## Non-Holonomic ORCA - Deadlock Configurations
+
+Configuration 1
+
+![dconfig11](https://user-images.githubusercontent.com/64011517/125907362-012f8696-4f8f-401d-a98f-788035523081.gif)
+
+Configuration 2
+
+![dconfig10 2](https://user-images.githubusercontent.com/64011517/125907384-035e324b-d104-4b9f-86d7-9df5d10c3958.gif)
+
+Configuration 3
+
+![dconfig12](https://user-images.githubusercontent.com/64011517/125907405-dcacbbdf-0c46-4942-9e6e-f5e685b3fdf0.gif)
+
+Configuration 4
+
+![dconfig13](https://user-images.githubusercontent.com/64011517/125907438-6b4af8c3-e7e2-44ea-bf6c-6cc593f20924.gif)
+
+Configuration 5
+
+![dconfig12 1](https://user-images.githubusercontent.com/64011517/125907469-8a955cc1-ff36-408a-9031-4df0164a7e19.gif)
+
+Configuration 6
+
+![dconfig15 1](https://user-images.githubusercontent.com/64011517/125907494-de8c00c4-756b-4f9f-8e86-5d723363456a.gif)
+
 
 ## Weighted ORCA Allotment
 Configuration 1

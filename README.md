@@ -138,3 +138,29 @@ Configuration 6
 
 ![config10_m1 2 (1)](https://user-images.githubusercontent.com/64011517/125902354-a1ec3075-5fe2-4385-8b65-e09a6aa03d14.gif)
 
+## Freespace Maximisation ORCA
+
+Configuration 1
+
+![config1_m2-vc](https://user-images.githubusercontent.com/64011517/125909822-885f2aa9-5769-4ef9-abde-84749966cb05.gif)
+
+Configuration 2
+
+![config2_m3-vc](https://user-images.githubusercontent.com/64011517/125909839-6746fe4f-2ee8-42ab-8cb4-627957034e3e.gif)
+
+Configuration 4
+
+![config4_m3](https://user-images.githubusercontent.com/64011517/125909851-48e78944-50c1-4cb3-a1f0-949f8aca222b.gif)
+
+Configuration 5
+
+![config9_m3](https://user-images.githubusercontent.com/64011517/125909877-39b251de-dff3-4570-ba77-0b82e2834cd6.gif)
+
+Configuration 6
+
+![config10_m3](https://user-images.githubusercontent.com/64011517/125909898-7255ef96-cdfa-4fdd-8fd8-c0c77bf37c92.gif)
+
+
+
+
+

@@ -146,7 +146,7 @@ Configuration 1
 
 Configuration 2
 
-![config2_m3-vc](https://user-images.githubusercontent.com/64011517/125909839-6746fe4f-2ee8-42ab-8cb4-627957034e3e.gif)
+Configuration 3
 
 Configuration 4
 
